@@ -1,6 +1,6 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1700065429
-hub.tscn::PackedScene::5693792342860683606::1699982098::0::1::::<><>::uid://doj2kmn1isnfa::::res://Player/player.tscn<>uid://cs2qdmdk83wsw::::res://Art/Tilesets/TilesetFloor.png<>uid://cso42w56m7tsf::::res://Art/Tilesets/TilesetNature.png<>uid://b7atcnuh2orw::::res://Art/Animated/Plant/SpriteSheet16x16.png
+::res://::1700065863
+hub.tscn::PackedScene::5693792342860683606::1700065608::0::1::::<><>::uid://doj2kmn1isnfa::::res://Player/player.tscn<>uid://cs2qdmdk83wsw::::res://Art/Tilesets/TilesetFloor.png<>uid://cso42w56m7tsf::::res://Art/Tilesets/TilesetNature.png<>uid://b7atcnuh2orw::::res://Art/Animated/Plant/SpriteSheet16x16.png
 icon.svg::CompressedTexture2D::1639502236947054763::1699549743::1699549750::1::::<><>::
 README.md::TextFile::-1::1699633800::0::1::::<><>::
 ::res://Art/::1699979435
@@ -58,6 +58,8 @@ Elements.png::CompressedTexture2D::3009439477785115842::1699892760::1699894792::
 TilesetInterior.png::CompressedTexture2D::7746882642972928593::1699892760::1699894792::1::::<><>::
 TilesetInteriorFloor.png::CompressedTexture2D::1426175996919287538::1699892760::1699894792::1::::<><>::
 TilesetWallSimple.png::CompressedTexture2D::7327083529785073656::1699892760::1699894792::1::::<><>::
+::res://Enemies/::1700065863
+Slime.png::CompressedTexture2D::4767437294246611032::1699892760::1700065865::1::::<><>::
 ::res://NinjaAdventure/::1699892765
 Example 5 ( Old Version).png::CompressedTexture2D::11020364732953113::1699892760::1699892765::1::::<><>::
 LICENSE.txt::TextFile::-1::1699892762::0::1::::<><>::
@@ -965,9 +967,8 @@ SpriteSheet.png::CompressedTexture2D::8227394626836392244::1699892760::169989276
 ::res://NinjaAdventure/Actor/Monsters/SkullBlue/::1699892764
 Faceset.png::CompressedTexture2D::4440261447267322912::1699892760::1699892764::1::::<><>::
 SpriteSheet.png::CompressedTexture2D::596820459521692125::1699892760::1699892764::1::::<><>::
-::res://NinjaAdventure/Actor/Monsters/Slime/::1699892764
+::res://NinjaAdventure/Actor/Monsters/Slime/::1700065863
 Faceset.png::CompressedTexture2D::3218732210041141107::1699892760::1699892764::1::::<><>::
-Slime.png::CompressedTexture2D::4767437294246611032::1699892760::1699892764::1::::<><>::
 ::res://NinjaAdventure/Actor/Monsters/Slime2/::1699892764
 Faceset.png::CompressedTexture2D::8283883381444244302::1699892760::1699892764::1::::<><>::
 Slime2.png::CompressedTexture2D::8664593623557129859::1699892760::1699892764::1::::<><>::
@@ -1338,5 +1339,5 @@ Menu11.wav::AudioStreamWAV::7362334786525954481::1699892762::1699892771::1::::<>
 Menu12.wav::AudioStreamWAV::5161467637240599724::1699892762::1699892771::1::::<><>::
 ::res://Player/::1699980697
 Player.gd::GDScript::-1::1699894610::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::8162143130097431534::1699980697::0::1::::<><>::res://Player/Player.gd<>uid://bybwvnciivlsp::::res://Player/SpriteSheet.png
+player.tscn::PackedScene::8162143130097431534::1699980697::0::1::::<><>::res://Player/Player.gd<>uid://bybwvnciivlsp
 SpriteSheet.png::CompressedTexture2D::4074391270540976583::1699892757::1699892866::1::::<><>::

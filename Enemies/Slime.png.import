@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b86m84bgl7aqi"
-path="res://.godot/imported/Slime.png-fe6f9a247f886a4363d98825ecbe8dca.ctex"
+path="res://.godot/imported/Slime.png-cbf11c8885f4ca138daf051e0152958c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://NinjaAdventure/Actor/Monsters/Slime/Slime.png"
-dest_files=["res://.godot/imported/Slime.png-fe6f9a247f886a4363d98825ecbe8dca.ctex"]
+source_file="res://Enemies/Slime.png"
+dest_files=["res://.godot/imported/Slime.png-cbf11c8885f4ca138daf051e0152958c.ctex"]
 
 [params]
 
