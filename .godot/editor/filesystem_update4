@@ -1,4 +1,8 @@
+res://Player/player.tscn
 res://hub.tscn
 res://Enemies/blue_slime.tscn
-res://Player/player.tscn
-res://Enemies/blue_slime.gd
+res://Player/Player.gd
+res://heart.tscn
+res://hearts.tscn
+res://hearts.gd
+res://hub.gd

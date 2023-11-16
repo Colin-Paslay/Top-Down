@@ -1,4 +1,4 @@
-[gd_scene load_steps=22 format=3 uid="uid://doj2kmn1isnfa"]
+[gd_scene load_steps=23 format=3 uid="uid://doj2kmn1isnfa"]
 
 [ext_resource type="Script" path="res://Player/Player.gd" id="1_blltb"]
 [ext_resource type="Texture2D" uid="uid://bybwvnciivlsp" path="res://Player/SpriteSheet.png" id="3_bynuj"]
@@ -153,6 +153,9 @@ animations = [{
 "speed": 8.0
 }]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xuc4f"]
+size = Vector2(14, 14)
+
 [node name="Player" type="CharacterBody2D"]
 z_index = 1
 y_sort_enabled = true
@@ -171,3 +174,13 @@ zoom = Vector2(10, 10)
 z_index = 1
 sprite_frames = SubResource("SpriteFrames_bwnu1")
 offset = Vector2(0, -8)
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_layer = 3
+collision_mask = 3
+
+[node name="EnemyCollision" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(0, -7)
+shape = SubResource("RectangleShape2D_xuc4f")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

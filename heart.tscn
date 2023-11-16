@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://bt0lmwtq8kqif"]
+
+[ext_resource type="Texture2D" uid="uid://5cbg6gwhd02b" path="res://Art/HUD/Heart.png" id="1_y2v6k"]
+
+[node name="heart" type="Panel"]
+self_modulate = Color(1, 1, 1, 0)
+offset_right = 16.0
+offset_bottom = 16.0
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(8, 8)
+texture = ExtResource("1_y2v6k")
+hframes = 5
